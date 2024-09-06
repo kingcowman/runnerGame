@@ -1,0 +1,78 @@
+{
+    "id": "7a3dd272-8ba8-46d2-927e-f2c135d3919b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1d986340-5e8b-491b-9792-1f08ef363b21",
+            "label": "container_1",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": -8,
+            "hitArea.y": -8,
+            "hitArea.width": 16,
+            "hitArea.height": 16,
+            "y": 46,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "d614b3ec-82bb-45ab-ab7b-20088ca5434e",
+                    "label": "rectangle_1",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 16,
+                    "hitArea.height": 16,
+                    "isFilled": true,
+                    "width": 16,
+                    "height": 16
+                },
+                {
+                    "type": "Image",
+                    "id": "f0afd71b-b331-4171-9dc7-05882b9dd488",
+                    "label": "image_1",
+                    "texture": {
+                        "key": "atlas",
+                        "frame": "egg1.png"
+                    }
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "key",
+            "label": "Key",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "image",
+            "label": "Image",
+            "tooltip": "",
+            "defValue": "green",
+            "customDefinition": false,
+            "type": {
+                "id": "asset-key"
+            }
+        }
+    ]
+}

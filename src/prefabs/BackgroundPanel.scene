@@ -1,0 +1,59 @@
+{
+    "id": "1b226cf7-bbeb-4cd2-85d5-6d2e85f8d015",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "104a4551-d7ef-4bac-82c3-e2c860c487c4",
+            "label": "bg_png",
+            "texture": {
+                "key": "atlas",
+                "frame": "bg.png"
+            },
+            "x": 176,
+            "y": 121,
+            "originX": 0,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": -40,
+            "allowGravity": false,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "allowDrag": false,
+            "allowRotation": false,
+            "pushable": false,
+            "body.width": 192,
+            "body.height": 240
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "velocity",
+            "label": "Property",
+            "tooltip": "",
+            "defValue": -40,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

@@ -1,0 +1,360 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/atlas.json",
+                "path": "assets/atlas",
+                "key": "atlas"
+            },
+            {
+                "url": "assets/particles/blue.png",
+                "type": "image",
+                "key": "blue"
+            },
+            {
+                "url": [
+                    "assets/songs/book_of_love.mp3"
+                ],
+                "type": "audio",
+                "key": "book_of_love"
+            },
+            {
+                "url": [
+                    "assets/songs/book_of_love_mix.mp3"
+                ],
+                "type": "audio",
+                "key": "book_of_love_mix"
+            },
+            {
+                "url": "assets/keys/burger.png",
+                "type": "image",
+                "key": "burger"
+            },
+            {
+                "url": "assets/chick.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "chick"
+            },
+            {
+                "url": [
+                    "assets/songs/constant_sorrow.mp3"
+                ],
+                "type": "audio",
+                "key": "constant_sorrow"
+            },
+            {
+                "url": "assets/keys/cotton_candy.png",
+                "type": "image",
+                "key": "cotton_candy"
+            },
+            {
+                "url": [
+                    "assets/songs/cotton_eyed_joe.mp3"
+                ],
+                "type": "audio",
+                "key": "cotton_eyed_joe"
+            },
+            {
+                "url": "assets/keys/cowboyhat2.png",
+                "type": "image",
+                "key": "cowboyhat2"
+            },
+            {
+                "url": [
+                    "assets/audio/death.wav"
+                ],
+                "type": "audio",
+                "key": "death"
+            },
+            {
+                "url": "assets/backgrounds/desert.png",
+                "type": "image",
+                "key": "desert"
+            },
+            {
+                "url": [
+                    "assets/audio/egg.wav"
+                ],
+                "type": "audio",
+                "key": "egg"
+            },
+            {
+                "url": "assets/keys/elk.png",
+                "type": "image",
+                "key": "elk"
+            },
+            {
+                "url": [
+                    "assets/audio/Explosion.wav"
+                ],
+                "type": "audio",
+                "key": "Explosion"
+            },
+            {
+                "url": [
+                    "assets/audio/flappy_chicken.mp3"
+                ],
+                "type": "audio",
+                "key": "flappy_chicken"
+            },
+            {
+                "url": "assets/keys/flowers.png",
+                "type": "image",
+                "key": "flowers"
+            },
+            {
+                "url": "assets/FufuSuperDino.png",
+                "type": "image",
+                "key": "FufuSuperDino"
+            },
+            {
+                "url": [
+                    "assets/songs/gangnam_style.mp3"
+                ],
+                "type": "audio",
+                "key": "gangnam_style"
+            },
+            {
+                "url": "assets/keys/gold.png",
+                "type": "image",
+                "key": "gold"
+            },
+            {
+                "url": "assets/backgrounds/goldman.png",
+                "type": "image",
+                "key": "goldman"
+            },
+            {
+                "url": "assets/particles/green.png",
+                "type": "image",
+                "key": "green"
+            },
+            {
+                "url": "assets/keys/horseshoe.png",
+                "type": "image",
+                "key": "horseshoe"
+            },
+            {
+                "url": "assets/keys/hottub.png",
+                "type": "image",
+                "key": "hottub"
+            },
+            {
+                "url": "assets/backgrounds/jersey2.png",
+                "type": "image",
+                "key": "jersey2"
+            },
+            {
+                "url": [
+                    "assets/songs/jordan_belfort.mp3"
+                ],
+                "type": "audio",
+                "key": "jordan_belfort"
+            },
+            {
+                "url": "assets/keys/lilith.png",
+                "type": "image",
+                "key": "lilith"
+            },
+            {
+                "url": [
+                    "assets/songs/llama_in_my_living_room.mp3"
+                ],
+                "type": "audio",
+                "key": "llama_in_my_living_room"
+            },
+            {
+                "url": [
+                    "assets/songs/midnight.mp3"
+                ],
+                "type": "audio",
+                "key": "midnight"
+            },
+            {
+                "url": "assets/keys/money.png",
+                "type": "image",
+                "key": "money"
+            },
+            {
+                "url": "assets/backgrounds/monuments.png",
+                "type": "image",
+                "key": "monuments"
+            },
+            {
+                "url": "assets/backgrounds/monuments2.png",
+                "type": "image",
+                "key": "monuments2"
+            },
+            {
+                "url": "assets/keys/neilcow.png",
+                "type": "image",
+                "key": "neilcow"
+            },
+            {
+                "url": [
+                    "assets/audio/pick_egg.wav"
+                ],
+                "type": "audio",
+                "key": "pick_egg"
+            },
+            {
+                "url": "assets/pizzabox.png",
+                "type": "image",
+                "key": "pizzabox"
+            },
+            {
+                "url": "assets/seamus/player_falling.png",
+                "frameConfig": {
+                    "frameWidth": 52,
+                    "frameHeight": 60,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "player_falling"
+            },
+            {
+                "url": "assets/seamus/player_jump.png",
+                "frameConfig": {
+                    "frameWidth": 63,
+                    "frameHeight": 60,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "player_jump"
+            },
+            {
+                "url": "assets/seamus/player_run.png",
+                "frameConfig": {
+                    "frameWidth": 63,
+                    "frameHeight": 59,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "player_run"
+            },
+            {
+                "url": [
+                    "assets/audio/pop_egg.wav"
+                ],
+                "type": "audio",
+                "key": "pop_egg"
+            },
+            {
+                "url": [
+                    "assets/songs/rasputin.mp3"
+                ],
+                "type": "audio",
+                "key": "rasputin"
+            },
+            {
+                "url": "assets/particles/red.png",
+                "type": "image",
+                "key": "red"
+            },
+            {
+                "url": "assets/keys/ring1.png",
+                "type": "image",
+                "key": "ring1"
+            },
+            {
+                "url": "assets/keys/ring2.png",
+                "type": "image",
+                "key": "ring2"
+            },
+            {
+                "url": "assets/keys/sandwich.png",
+                "type": "image",
+                "key": "sandwich"
+            },
+            {
+                "url": "assets/keys/sweatshirt.png",
+                "type": "image",
+                "key": "sweatshirt"
+            },
+            {
+                "url": [
+                    "assets/songs/the_cave.mp3"
+                ],
+                "type": "audio",
+                "key": "the_cave"
+            },
+            {
+                "url": [
+                    "assets/songs/turn_it_up.mp3"
+                ],
+                "type": "audio",
+                "key": "turn_it_up"
+            },
+            {
+                "url": "assets/keys/tuxedo.png",
+                "type": "image",
+                "key": "tuxedo"
+            },
+            {
+                "url": "assets/keys/wafflehouse.png",
+                "type": "image",
+                "key": "wafflehouse"
+            },
+            {
+                "url": "assets/wedding_panel.png",
+                "type": "image",
+                "key": "wedding_panel"
+            },
+            {
+                "url": "assets/wedding2.png",
+                "type": "image",
+                "key": "wedding2"
+            },
+            {
+                "url": "assets/backgrounds/westsidehighway.png",
+                "type": "image",
+                "key": "westsidehighway"
+            },
+            {
+                "url": "assets/particles/white.png",
+                "type": "image",
+                "key": "white"
+            },
+            {
+                "url": "assets/keys/williamcow.png",
+                "type": "image",
+                "key": "williamcow"
+            },
+            {
+                "url": "assets/particles/yellow.png",
+                "type": "image",
+                "key": "yellow"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

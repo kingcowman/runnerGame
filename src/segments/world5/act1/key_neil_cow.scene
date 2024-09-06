@@ -1,0 +1,89 @@
+{
+    "id": "91c79ea6-3e56-4fa2-83c8-315cead15407",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "464df123-3830-4bc3-ad8b-1133bf331191",
+            "label": "container_1",
+            "x": 116,
+            "y": 174,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                    "label": "rectangle_1",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 320,
+                    "hitArea.height": 16,
+                    "x": -116,
+                    "y": 26,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "allowGravity": false,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 1000,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "strokeColor": "#ef0505",
+                    "width": 1000,
+                    "height": 16
+                },
+                {
+                    "prefabId": "988a8d6d-a630-4d1b-8fef-68b9fa9ff656",
+                    "id": "bb136789-c9a4-4bcc-b88b-4fbc657d6e2a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "key",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "collect",
+                    "key": "neil_cow",
+                    "texture": {
+                        "key": "neilcow"
+                    },
+                    "x": 460,
+                    "y": -30,
+                    "scaleX": 0.05,
+                    "scaleY": 0.05
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
+            "label": "platforms",
+            "objectIds": [
+                "9612894a-3a70-4cf9-b662-ef539cdb8476"
+            ],
+            "scope": "PUBLIC"
+        }
+    ]
+}

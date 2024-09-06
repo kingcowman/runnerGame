@@ -1,0 +1,59 @@
+{
+    "id": "e2855969-7741-4a2e-9d5c-9f39b9ab5f9a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "8e6736d7-54cd-46f1-8e59-fa382b186966",
+            "label": "sprite_1",
+            "texture": {
+                "key": "player_run",
+                "frame": 0
+            },
+            "x": 715,
+            "y": 315,
+            "ArcadeComponent.active": true,
+            "body.gravity.y": 3000,
+            "collideWorldBounds": true,
+            "body.width": 50,
+            "body.height": 59,
+            "animationPlayMethod": 1,
+            "animationKey": "seamus_run",
+            "list": [
+                {
+                    "prefabId": "5691e572-0cb0-4507-8372-8b5daefd7b77",
+                    "id": "3cc9e2f9-0e61-43b5-89ae-080bab33e4fc",
+                    "label": "onWorldBoundsCollideEventScript",
+                    "list": [
+                        {
+                            "prefabId": "7458fb7d-33ca-4f50-be61-4a57e8e01b5c",
+                            "id": "a73c3c2b-31ff-4755-8b96-b19c270b5901",
+                            "unlock": [
+                                "velocityY"
+                            ],
+                            "label": "setVelocityYActionScript",
+                            "velocityY": -300
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

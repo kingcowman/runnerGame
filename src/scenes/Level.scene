@@ -1,0 +1,244 @@
+{
+    "id": "4c95461c-693d-4231-a91e-2a7fd2392d64",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level2",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "dca79719-d08c-4909-8b59-44be41bef41c",
+            "label": "bg_png",
+            "scope": "CLASS",
+            "texture": {
+                "key": "atlas",
+                "frame": "bg.png"
+            },
+            "x": -118,
+            "originX": 0,
+            "originY": 0,
+            "tintTopRight": "#ffffff55",
+            "tintBottomLeft": "#ffffff11",
+            "tintBottomRight": "#ffffff11",
+            "width": 600,
+            "height": 240,
+            "list": [
+                {
+                    "type": "Blur",
+                    "id": "a5f4dc50-e8cf-4ebb-96e9-a50808c6ede9",
+                    "label": "blurFx",
+                    "x": 0,
+                    "y": 0,
+                    "steps": 2
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "0540968d-79e3-4eb4-a347-d61f9f732094",
+            "label": "bombs",
+            "scope": "METHOD",
+            "x": -211,
+            "y": -209
+        },
+        {
+            "type": "Container",
+            "id": "fdcadb36-e65b-436f-a95a-519f57f86f5e",
+            "label": "eggs",
+            "scope": "METHOD",
+            "x": -211,
+            "y": -209
+        },
+        {
+            "type": "Container",
+            "id": "f24d56a7-cd30-456d-9ab8-35ce5cbec68e",
+            "label": "chicks",
+            "scope": "METHOD",
+            "x": -211,
+            "y": -209
+        },
+        {
+            "type": "Container",
+            "id": "7b4674a2-63eb-4dc8-886e-2de1bb540db9",
+            "label": "segments",
+            "scope": "CLASS",
+            "ArcadeComponent.active": true,
+            "body.velocity.x": -500,
+            "allowGravity": false,
+            "up": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 64,
+            "body.height": 64,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "e8cac9f5-0249-4fda-84f2-0fc70d3c8159",
+                    "label": "rectangle_2",
+                    "x": -177,
+                    "y": 226,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128,
+                    "list": [
+                        {
+                            "prefabId": "7c8cbf11-b634-4342-b8e3-0f8c07984976",
+                            "id": "4458a095-fe5e-41b3-bea8-e9217548a483",
+                            "unlock": [
+                                "objectPrefab",
+                                "segmentContainer",
+                                "groundList",
+                                "stairList",
+                                "collectedKeys",
+                                "collectiblesList"
+                            ],
+                            "label": "segmentSpawner",
+                            "scope": "CLASS",
+                            "segmentContainer": "segments",
+                            "groundList": "ground",
+                            "stairList": "stairs",
+                            "collectiblesList": "collectibles",
+                            "collectedKeys": "collectedKeys"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "f9b07624-4908-4b0b-84b8-a532c9786793",
+            "label": "tint",
+            "x": 181,
+            "y": 124,
+            "alpha": 0.4,
+            "isFilled": true,
+            "width": 400,
+            "height": 300
+        },
+        {
+            "prefabId": "437c7d1d-12e5-4251-8d72-3ee5abae49d2",
+            "id": "9507453c-fec7-4d56-a545-e4834d7d61fc",
+            "unlock": [
+                "eventName",
+                "eventEmitter"
+            ],
+            "label": "onEventScript_5",
+            "eventName": "spawn_ground",
+            "eventEmitter": "scene.events"
+        },
+        {
+            "prefabId": "5691e572-0cb0-4507-8372-8b5daefd7b77",
+            "id": "857984d7-f374-4a0f-9057-2d506e539d9c",
+            "unlock": [
+                "up",
+                "left",
+                "right",
+                "down"
+            ],
+            "label": "onWorldBoundsCollideEventScript_1",
+            "up": false,
+            "down": true,
+            "left": false,
+            "right": false,
+            "list": [
+                {
+                    "prefabId": "d325f96b-76bd-490c-94dc-3251ec58c4cc",
+                    "id": "a352130f-5aaa-4739-8264-8993459c0ba6",
+                    "label": "getGameObjectFromBodyActionScript",
+                    "list": [
+                        {
+                            "prefabId": "7458fb7d-33ca-4f50-be61-4a57e8e01b5c",
+                            "id": "d8847ca7-8c7d-449a-9e0b-ef5015460213",
+                            "unlock": [
+                                "velocityY"
+                            ],
+                            "label": "setVelocityYActionScript_3",
+                            "velocityY": -80,
+                            "components": [
+                                "ActionTargetComp"
+                            ],
+                            "ActionTargetComp.target": "ARG_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "prefabId": "e2855969-7741-4a2e-9d5c-9f39b9ab5f9a",
+            "id": "c8be27fb-d2ff-4a61-9e50-6d74228ec250",
+            "unlock": [
+                "x",
+                "y",
+                "ground"
+            ],
+            "label": "seamus",
+            "scope": "CLASS",
+            "x": 116,
+            "y": 143
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "6538b4f4-8718-4d7c-86cf-5e1c01793907",
+            "type": "Collider",
+            "label": "platformCollider",
+            "object1": "seamus",
+            "object2": "ground"
+        },
+        {
+            "id": "9a9f431a-ad23-4066-9b97-3cab288253b7",
+            "type": "Collider",
+            "label": "stairCollider",
+            "object1": "seamus",
+            "object2": "stairs",
+            "collideCallback": "this.onStairCollision"
+        },
+        {
+            "id": "ff431361-c34c-4a57-a1e2-794ab231759b",
+            "type": "Collider",
+            "label": "collectibleCollider",
+            "object1": "seamus",
+            "object2": "collectibles",
+            "overlapOnly": true,
+            "collideCallback": "this.onCollectible",
+            "callbackContext": "this"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "05c71d26-b23e-44c4-ae65-40eea2909c97",
+            "label": "ground"
+        },
+        {
+            "id": "08049423-6f35-427b-9083-9c5d87266cbf",
+            "label": "stairs"
+        },
+        {
+            "id": "eced085c-6504-4c10-a6bd-008576273aec",
+            "label": "collectibles"
+        },
+        {
+            "id": "66e5b879-5776-4db4-86cd-eb81f82ac82e",
+            "label": "collectedKeys",
+            "scope": "PUBLIC"
+        }
+    ]
+}

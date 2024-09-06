@@ -1,0 +1,59 @@
+{
+    "id": "988a8d6d-a630-4d1b-8fef-68b9fa9ff656",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "2e048752-5c7c-4e73-9864-b9653a4ca8dd",
+            "label": "image_1",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 1024,
+            "hitArea.height": 1024,
+            "texture": {
+                "key": "pizzabox"
+            },
+            "x": 63,
+            "y": 66,
+            "scaleX": 0.05,
+            "scaleY": 0.05,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.friction.x": 0,
+            "allowGravity": false,
+            "allowDrag": false,
+            "angularVelocity": 2,
+            "pushable": false,
+            "body.width": 1024,
+            "body.height": 1024
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "key",
+            "label": "key",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}
