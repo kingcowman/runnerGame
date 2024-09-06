@@ -388,10 +388,11 @@ export default class Level extends Phaser.Scene {
 		// find all collectibles in the segment and add them to the collectibles list
 		//where a collectible is a prefab of collectible.ts
 		segment.list.forEach((child) => {
-			//match on classname
-			if ('Collect' !== child.constructor.name) {
+			//only if the child has a particles field
+			if (!('particles' in child)) {
 				return;
 			}
+
 			const collectible = child as any;
 
 			// if the collectible has a key, check if it has been collected
@@ -404,6 +405,9 @@ export default class Level extends Phaser.Scene {
 				}
 			}
 			this.collectibles.push(collectible);
+			console.log(collectible);
+			console.log(this.collectibles);
+			console.log("collectible added");
 		});
 	}
 
@@ -507,7 +511,6 @@ export default class Level extends Phaser.Scene {
 	}
 
 	onCollectible(player: any, collectible: any) {
-		console.log("collision");
 		if (collectible.key && !this.collectedKeys.includes(collectible.key)) {
 			console.log("collected", collectible.key);
 			this.collectedKeys.push(collectible.key);

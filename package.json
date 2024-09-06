@@ -5,6 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack serve --mode=development --stats-error-details --node-env development",
+    "start-prod": "webpack serve --mode=production --stats-error-details --node-env production",
     "build": "webpack --mode=production --node-env production && phaser-asset-pack-hashing -r dist",
     "editor": "phasereditor2d-launcher -project . -port 1959",
     "editor-remote": "phasereditor2d-launcher -project . -disable-open-browser -public -port 1959",
