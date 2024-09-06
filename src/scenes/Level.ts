@@ -507,7 +507,7 @@ export default class Level extends Phaser.Scene {
 	}
 
 	onCollectible(player: any, collectible: any) {
-		// set player y to the stairs top y
+		console.log("collision");
 		if (collectible.key && !this.collectedKeys.includes(collectible.key)) {
 			console.log("collected", collectible.key);
 			this.collectedKeys.push(collectible.key);
