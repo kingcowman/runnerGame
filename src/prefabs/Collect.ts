@@ -71,6 +71,7 @@ export default class Collect extends Phaser.GameObjects.Image {
 	public particles: Phaser.GameObjects.Particles.ParticleEmitter;
 
 	collect(): void {
+		console.log("collecting", this.key);
 		if (!this.active) {
 			return;
 		}
