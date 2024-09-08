@@ -1,0 +1,163 @@
+{
+    "id": "bae4d7c7-a7ca-4432-be5b-891f394129ad",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapEnabled": true,
+        "snapHeight": 8,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "464df123-3830-4bc3-ad8b-1133bf331191",
+            "label": "container_1",
+            "x": 116,
+            "y": 174,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "1ae4fd09-5a2f-48b8-8446-eb9cdb31dcc0",
+                    "label": "rectangle_3",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 320,
+                    "hitArea.height": 16,
+                    "x": -116,
+                    "y": 26,
+                    "scaleX": 1.6,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "allowGravity": false,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 320,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "fillColor": "#e5cb9f",
+                    "strokeColor": "#ef0505",
+                    "width": 320,
+                    "height": 16
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "5034976d-91da-4631-a4c5-831efdb8285a",
+                    "label": "rectangle_4",
+                    "x": -36,
+                    "y": -70,
+                    "scaleY": 0.07,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 128,
+                    "body.height": 128,
+                    "isFilled": true,
+                    "fillColor": "#6b4019",
+                    "strokeColor": "#010101",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "9fc2cc46-6449-449c-877e-d50892c2d342",
+                    "label": "crate_3",
+                    "texture": {
+                        "key": "crate"
+                    },
+                    "x": 252,
+                    "y": -24,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 270,
+                    "body.height": 270
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "42e47908-1a11-42b4-9585-1cbdf11bfea2",
+                    "label": "rectangle_5",
+                    "x": 124,
+                    "y": -22,
+                    "scaleY": 0.07,
+                    "ArcadeComponent.active": true,
+                    "body.width": 128,
+                    "body.height": 128,
+                    "isFilled": true,
+                    "fillColor": "#6b4019",
+                    "strokeColor": "#010101",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2333cdee-972c-4153-b48e-1f14b9466e90",
+                    "label": "rectangle",
+                    "x": 124,
+                    "y": -118,
+                    "scaleY": 0.07,
+                    "ArcadeComponent.active": true,
+                    "body.width": 128,
+                    "body.height": 128,
+                    "isFilled": true,
+                    "fillColor": "#6b4019",
+                    "strokeColor": "#010101",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "8086b2a3-c8f4-4e67-b0e3-dcfd1033d583",
+                    "label": "rectangle_2",
+                    "x": 284,
+                    "y": -102,
+                    "scaleY": 0.07,
+                    "ArcadeComponent.active": true,
+                    "body.width": 128,
+                    "body.height": 128,
+                    "isFilled": true,
+                    "fillColor": "#6b4019",
+                    "strokeColor": "#010101",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
+            "label": "platforms",
+            "objectIds": [
+                "8086b2a3-c8f4-4e67-b0e3-dcfd1033d583",
+                "2333cdee-972c-4153-b48e-1f14b9466e90",
+                "42e47908-1a11-42b4-9585-1cbdf11bfea2",
+                "9fc2cc46-6449-449c-877e-d50892c2d342",
+                "5034976d-91da-4631-a4c5-831efdb8285a",
+                "1ae4fd09-5a2f-48b8-8446-eb9cdb31dcc0"
+            ],
+            "scope": "PUBLIC"
+        }
+    ]
+}

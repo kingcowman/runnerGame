@@ -128,6 +128,86 @@
             "height": 300
         },
         {
+            "prefabId": "e2855969-7741-4a2e-9d5c-9f39b9ab5f9a",
+            "id": "c8be27fb-d2ff-4a61-9e50-6d74228ec250",
+            "unlock": [
+                "x",
+                "y",
+                "ground"
+            ],
+            "label": "seamus",
+            "scope": "CLASS",
+            "x": 116,
+            "y": 143
+        },
+        {
+            "type": "Container",
+            "id": "aa1de273-39d7-484f-b103-e3eb671a7547",
+            "label": "snow",
+            "scope": "CLASS",
+            "y": -94,
+            "list": [
+                {
+                    "type": "TileSprite",
+                    "id": "4264068b-622f-478c-bce3-d48c5b8582ef",
+                    "label": "snow2",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "snow2"
+                    },
+                    "x": 181,
+                    "y": 217,
+                    "alpha": 0.75,
+                    "alphaTopLeft": 0.75,
+                    "alphaTopRight": 0.75,
+                    "alphaBottomLeft": 0.75,
+                    "alphaBottomRight": 0.75,
+                    "width": 1000,
+                    "height": 1000,
+                    "list": [
+                        {
+                            "type": "Blur",
+                            "id": "49698add-9207-45fb-912d-270324266552",
+                            "label": "blurFx_1",
+                            "x": 1,
+                            "y": 1,
+                            "steps": 2,
+                            "preFX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "c9e3ab9d-6e19-443b-b1b1-35fdf5a51eae",
+                    "label": "snow1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "snow1"
+                    },
+                    "x": 181,
+                    "y": 214,
+                    "alpha": 0.6,
+                    "alphaTopLeft": 0.6,
+                    "alphaTopRight": 0.6,
+                    "alphaBottomLeft": 0.6,
+                    "alphaBottomRight": 0.6,
+                    "width": 1000,
+                    "height": 1000,
+                    "list": [
+                        {
+                            "type": "Blur",
+                            "id": "35f1f57f-2adc-43a6-a623-ba34cae4027b",
+                            "label": "blurFx_2",
+                            "x": 3,
+                            "y": 3,
+                            "steps": 1,
+                            "preFX": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "prefabId": "437c7d1d-12e5-4251-8d72-3ee5abae49d2",
             "id": "9507453c-fec7-4d56-a545-e4834d7d61fc",
             "unlock": [
@@ -174,19 +254,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "prefabId": "e2855969-7741-4a2e-9d5c-9f39b9ab5f9a",
-            "id": "c8be27fb-d2ff-4a61-9e50-6d74228ec250",
-            "unlock": [
-                "x",
-                "y",
-                "ground"
-            ],
-            "label": "seamus",
-            "scope": "CLASS",
-            "x": 116,
-            "y": 143
         }
     ],
     "plainObjects": [

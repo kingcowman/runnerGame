@@ -21,31 +21,6 @@
             "y": 174,
             "list": [
                 {
-                    "type": "Rectangle",
-                    "id": "9612894a-3a70-4cf9-b662-ef539cdb8476",
-                    "label": "rectangle_1",
-                    "hitArea.shape": "RECTANGLE",
-                    "hitArea.width": 320,
-                    "hitArea.height": 16,
-                    "x": -116,
-                    "y": 26,
-                    "originX": 0,
-                    "originY": 1,
-                    "ArcadeComponent.active": true,
-                    "allowGravity": false,
-                    "down": false,
-                    "left": false,
-                    "right": false,
-                    "pushable": false,
-                    "immovable": true,
-                    "body.width": 1000,
-                    "body.height": 16,
-                    "isFilled": true,
-                    "strokeColor": "#ef0505",
-                    "width": 1000,
-                    "height": 16
-                },
-                {
                     "prefabId": "988a8d6d-a630-4d1b-8fef-68b9fa9ff656",
                     "id": "d6585575-e5de-4f7c-b2c0-d5f6ffb8fb98",
                     "unlock": [
@@ -59,8 +34,105 @@
                     "texture": {
                         "key": "williamcow"
                     },
-                    "x": 380,
-                    "y": -30
+                    "x": 236,
+                    "y": -158
+                },
+                {
+                    "type": "Image",
+                    "id": "abd74c9a-dee1-4b7a-863e-35208627b09c",
+                    "label": "background_cow_4",
+                    "texture": {
+                        "key": "background_cow_4"
+                    },
+                    "x": 236,
+                    "y": -30,
+                    "scaleX": 0.04,
+                    "scaleY": 0.04
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "80ae7c3d-270f-4832-9e76-5038389bf9c3",
+                    "label": "tilesprite",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": 188,
+                    "y": -110,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 96,
+                    "body.height": 16,
+                    "body.offset.y": 16,
+                    "width": 96,
+                    "height": 32
+                },
+                {
+                    "type": "Image",
+                    "id": "863605f6-a99c-47ef-8e2c-f2815debc458",
+                    "label": "background_cow_5",
+                    "texture": {
+                        "key": "background_cow_5"
+                    },
+                    "x": 76,
+                    "y": -110,
+                    "scaleX": 0.04,
+                    "scaleY": 0.04
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "ea2fc907-df32-470a-adca-f4f952147ea8",
+                    "label": "tilesprite_2",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": 28,
+                    "y": -62,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "body.width": 96,
+                    "body.height": 16,
+                    "body.offset.y": 16,
+                    "width": 96,
+                    "height": 32
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "0084dd59-a77d-48ef-8047-3cf5087f0f0e",
+                    "label": "tilesprite_3",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": -116,
+                    "y": 32,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 640,
+                    "body.height": 16,
+                    "body.offset.y": 16,
+                    "width": 760,
+                    "height": 48
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "68ce809f-4174-42ac-b036-4f7f90ceb4c1",
+                    "label": "rectangle_1",
+                    "x": -100,
+                    "y": 2,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "body.width": 16,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "width": 16,
+                    "height": 16
                 }
             ]
         }
@@ -77,9 +149,17 @@
             "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
             "label": "platforms",
             "objectIds": [
-                "9612894a-3a70-4cf9-b662-ef539cdb8476"
+                "ea2fc907-df32-470a-adca-f4f952147ea8",
+                "0084dd59-a77d-48ef-8047-3cf5087f0f0e"
             ],
             "scope": "PUBLIC"
+        },
+        {
+            "id": "07890ada-8d54-42bf-a9fc-a7ee7453b1f6",
+            "label": "stairs",
+            "objectIds": [
+                "68ce809f-4174-42ac-b036-4f7f90ceb4c1"
+            ]
         }
     ]
 }

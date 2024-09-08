@@ -4,6 +4,7 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
+import Collect from "../../../prefabs/Collect";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -811,6 +812,14 @@ export default class test_2 extends Phaser.GameObjects.Container {
 		floor.isFilled = true;
 		floor.strokeColor = 15664389;
 		this.add(floor);
+
+		// collect
+		const collect = new Collect(scene, 88, -158, "atlas", "egg1.png");
+		collect.scaleX = 0.8;
+		collect.scaleY = 0.8;
+		collect.body.setOffset(0, 0);
+		collect.body.setSize(32, 32, false);
+		this.add(collect);
 
 		// lists
 		const platforms = [floor];

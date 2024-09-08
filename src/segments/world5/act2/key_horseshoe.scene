@@ -59,8 +59,163 @@
                     "texture": {
                         "key": "horseshoe"
                     },
-                    "x": 316,
-                    "y": -94
+                    "x": 444,
+                    "y": -174
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "b7dd06a8-d515-4c1d-ae8e-eb5e02bef1fe",
+                    "label": "carnival_stripe",
+                    "texture": {
+                        "key": "carnival_stripe"
+                    },
+                    "x": -116,
+                    "y": 2,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 1000,
+                    "height": 32,
+                    "tileScaleX": 3
+                },
+                {
+                    "type": "Image",
+                    "id": "8aa65924-b4ef-47c1-8ff5-ac432ba4fe7f",
+                    "label": "carnival_slide",
+                    "texture": {
+                        "key": "carnival_slide"
+                    },
+                    "x": 380,
+                    "y": -62,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "0e9059e1-7c50-49ad-a373-8bef58ef4185",
+                    "label": "rectangle_2",
+                    "x": 332,
+                    "y": 2,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "isFilled": true,
+                    "width": 32,
+                    "height": 32
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "fa9f57d7-9620-4316-9499-8c54cb34401c",
+                    "label": "rectangle",
+                    "x": 348,
+                    "y": -14,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "isFilled": true,
+                    "width": 32,
+                    "height": 32
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "c911c7a3-bee5-4f53-b9f8-f6ce48936be6",
+                    "label": "rectangle_3",
+                    "x": 380,
+                    "y": -30,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "isFilled": true,
+                    "width": 32,
+                    "height": 32
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "46256915-48e2-4035-bd68-15b19ec119f1",
+                    "label": "rectangle_4",
+                    "x": 396,
+                    "y": -46,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "isFilled": true,
+                    "width": 32,
+                    "height": 32
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "6d2e6202-c771-4c71-ad35-abc01cb13ddd",
+                    "label": "rectangle_5",
+                    "x": 412,
+                    "y": -62,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "isFilled": true,
+                    "width": 32,
+                    "height": 32
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "ed5ab8d9-12d8-40f7-b5d6-57482c03c3e9",
+                    "label": "rectangle_6",
+                    "x": 428,
+                    "y": -94,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "isFilled": true,
+                    "width": 32,
+                    "height": 32
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "694be56e-3e05-4611-9362-f00674a8301c",
+                    "label": "rectangle_7",
+                    "x": 428,
+                    "y": -94,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "isFilled": true,
+                    "width": 32,
+                    "height": 32
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "957154a3-9816-4f95-8970-7f19cfb7fe57",
+                    "label": "rectangle_8",
+                    "x": 444,
+                    "y": -126,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "isFilled": true,
+                    "width": 32,
+                    "height": 32
                 }
             ]
         }
@@ -80,6 +235,20 @@
                 "9612894a-3a70-4cf9-b662-ef539cdb8476"
             ],
             "scope": "PUBLIC"
+        },
+        {
+            "id": "aba81520-dae8-43dc-a010-0426a4aff711",
+            "label": "stairs",
+            "objectIds": [
+                "0e9059e1-7c50-49ad-a373-8bef58ef4185",
+                "694be56e-3e05-4611-9362-f00674a8301c",
+                "ed5ab8d9-12d8-40f7-b5d6-57482c03c3e9",
+                "6d2e6202-c771-4c71-ad35-abc01cb13ddd",
+                "46256915-48e2-4035-bd68-15b19ec119f1",
+                "c911c7a3-bee5-4f53-b9f8-f6ce48936be6",
+                "fa9f57d7-9620-4316-9499-8c54cb34401c",
+                "957154a3-9816-4f95-8970-7f19cfb7fe57"
+            ]
         }
     ]
 }

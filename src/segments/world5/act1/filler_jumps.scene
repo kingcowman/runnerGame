@@ -1,0 +1,151 @@
+{
+    "id": "b7f7a13a-a027-4fde-b0e0-b6b3aff39822",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "464df123-3830-4bc3-ad8b-1133bf331191",
+            "label": "container_1",
+            "x": 116,
+            "y": 174,
+            "list": [
+                {
+                    "prefabId": "988a8d6d-a630-4d1b-8fef-68b9fa9ff656",
+                    "id": "bf2b74d3-e86d-4df9-8cb4-34eb5a2b0cb9",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "body.offset.x",
+                        "body.offset.y",
+                        "body.width",
+                        "body.height"
+                    ],
+                    "label": "collect_2",
+                    "texture": {
+                        "key": "atlas",
+                        "frame": "egg1.png"
+                    },
+                    "x": -68,
+                    "y": -158,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "body.offset.x": 0,
+                    "body.offset.y": 0
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "f56cf18c-ab0d-464d-8c5c-a53aa37c8639",
+                    "label": "tilesprite",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": -116,
+                    "y": -142,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "body.width": 96,
+                    "body.height": 16,
+                    "body.offset.y": 16,
+                    "width": 96,
+                    "height": 32
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "7514e0d3-05ee-40a4-a12d-214c2e92493b",
+                    "label": "tilesprite_2",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": 28,
+                    "y": -62,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "body.width": 96,
+                    "body.height": 16,
+                    "body.offset.y": 16,
+                    "width": 96,
+                    "height": 32
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "1e72320f-4b8f-494d-b4bd-8172d0b2785b",
+                    "label": "tilesprite_3",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": -116,
+                    "y": 32,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 640,
+                    "body.height": 16,
+                    "body.offset.y": 16,
+                    "width": 320,
+                    "height": 48
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "45b6fed8-9982-4d3a-9a30-1e90ca6737ce",
+                    "label": "rectangle_1",
+                    "x": -100,
+                    "y": 10,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "body.width": 16,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "width": 16,
+                    "height": 16
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
+            "label": "platforms",
+            "objectIds": [
+                "7514e0d3-05ee-40a4-a12d-214c2e92493b",
+                "f56cf18c-ab0d-464d-8c5c-a53aa37c8639",
+                "1e72320f-4b8f-494d-b4bd-8172d0b2785b"
+            ],
+            "scope": "PUBLIC"
+        },
+        {
+            "id": "8d4fa501-6030-4935-9353-500a2ca2cdd5",
+            "label": "stairs",
+            "objectIds": [
+                "45b6fed8-9982-4d3a-9a30-1e90ca6737ce"
+            ]
+        }
+    ]
+}

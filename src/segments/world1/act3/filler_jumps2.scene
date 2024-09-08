@@ -1,0 +1,138 @@
+{
+    "id": "e041b8cc-9365-49dd-adc2-fb5ca951400c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapEnabled": true,
+        "snapWidth": 4,
+        "snapHeight": 4,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "464df123-3830-4bc3-ad8b-1133bf331191",
+            "label": "container_1",
+            "x": 116,
+            "y": 174,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                    "label": "floor",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 320,
+                    "hitArea.height": 16,
+                    "x": -116,
+                    "y": 26,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "allowGravity": false,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 320,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "strokeColor": "#ef0505",
+                    "width": 250,
+                    "height": 16
+                },
+                {
+                    "type": "Image",
+                    "id": "ab9dc618-1283-4f9d-b688-a96011e82926",
+                    "label": "llama4",
+                    "texture": {
+                        "key": "llama1"
+                    },
+                    "x": 64,
+                    "y": -46,
+                    "scaleX": 0.15,
+                    "scaleY": 0.15,
+                    "ArcadeComponent.active": true,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "body.width": 300,
+                    "body.height": 220,
+                    "body.offset.x": 139,
+                    "body.offset.y": 119
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "29a0b33d-5ef4-4c6a-b0a3-1ee49f28c971",
+                    "label": "rectangle_2",
+                    "x": 64,
+                    "y": -46,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 48,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "width": 64,
+                    "height": 16
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
+            "label": "platforms",
+            "objectIds": [
+                "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                "ab9dc618-1283-4f9d-b688-a96011e82926",
+                "29a0b33d-5ef4-4c6a-b0a3-1ee49f28c971"
+            ],
+            "scope": "PUBLIC"
+        },
+        {
+            "id": "00e71cc1-268d-4aca-b919-fccebcacf020",
+            "label": "stairs",
+            "objectIds": [
+                "6f25969a-ee55-4368-b3b0-b3e4eba70a48",
+                "5f85c8a7-cad0-4e4a-8b47-92a5d00d4f46",
+                "10301f0e-7da0-4e09-904d-257e59f31198",
+                "686b6173-af10-43a2-9e82-e27931737162",
+                "df8a25f7-a0ed-4f9b-856b-7bdef5d7f05f",
+                "311c8757-3963-4356-9f06-569382bfa65f",
+                "bf5c68d2-2c03-4eef-b34d-d53117534067",
+                "3f58da07-947a-4fc9-b942-7c87f0ba5d0e",
+                "ea5a014c-0cb4-4b0b-9cc6-34953c8618b8",
+                "cfabf9a0-c3d4-4cb0-83e0-196cce300c9b",
+                "6cde9197-ae8e-44c2-ac7f-680fcffeec05",
+                "410136b2-ad7c-47fe-b343-d62c1a047326",
+                "f6c6cec2-51d4-4f4b-9ca1-9a3f131c846a",
+                "6d106072-fc1a-4438-8c30-84092ba88d82",
+                "baacded9-ed38-4689-b83e-2327453cf984",
+                "18de52a7-b4e8-438e-a78d-410129584ca3",
+                "f089c8f0-dc2b-4aa9-861a-7f5996e4a4e5",
+                "2573a70e-1dbf-44c7-a14a-446ea51abf7a",
+                "85ddc9ff-747a-43f8-ac29-16a92b169159",
+                "6fa11dd0-7852-4aa9-8b22-90a924ff4a3c",
+                "62a53587-21ce-4921-ac7f-243d8cd1b80e",
+                "a7f49635-63bf-41a1-9994-b9aefb6580fd",
+                "5c86af24-0af6-4b0e-b0fb-ad451cdbc63f",
+                "78a7e801-c7d8-4bd0-81f2-6a76ffce8c3c"
+            ]
+        }
+    ]
+}

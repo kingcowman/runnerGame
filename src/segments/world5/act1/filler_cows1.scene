@@ -1,0 +1,162 @@
+{
+    "id": "e5db8d38-ea7b-4682-ad2f-45261391daea",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "464df123-3830-4bc3-ad8b-1133bf331191",
+            "label": "container_1",
+            "x": 116,
+            "y": 174,
+            "list": [
+                {
+                    "type": "TileSprite",
+                    "id": "29e34bec-eb36-4839-83a9-f6f0b46bf793",
+                    "label": "tilesprite_1",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": -116,
+                    "y": 32,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 760,
+                    "body.height": 32,
+                    "body.offset.y": 16,
+                    "width": 760,
+                    "height": 48
+                },
+                {
+                    "type": "Image",
+                    "id": "abd74c9a-dee1-4b7a-863e-35208627b09c",
+                    "label": "background_cow_4",
+                    "texture": {
+                        "key": "background_cow_6"
+                    },
+                    "x": 236,
+                    "y": -158,
+                    "scaleX": 0.04,
+                    "scaleY": 0.04
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "80ae7c3d-270f-4832-9e76-5038389bf9c3",
+                    "label": "tilesprite",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": 188,
+                    "y": -110,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 96,
+                    "body.height": 16,
+                    "body.offset.y": 16,
+                    "width": 96,
+                    "height": 32
+                },
+                {
+                    "type": "Image",
+                    "id": "863605f6-a99c-47ef-8e2c-f2815debc458",
+                    "label": "background_cow_5",
+                    "texture": {
+                        "key": "background_cow_8"
+                    },
+                    "x": 76,
+                    "y": -110,
+                    "scaleX": 0.04,
+                    "scaleY": 0.04
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "ea2fc907-df32-470a-adca-f4f952147ea8",
+                    "label": "tilesprite_2",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": 28,
+                    "y": -62,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 96,
+                    "body.height": 16,
+                    "body.offset.y": 16,
+                    "width": 96,
+                    "height": 32
+                },
+                {
+                    "type": "Image",
+                    "id": "fc124e34-3122-4b8b-aff4-44bfa3adab82",
+                    "label": "background_cow",
+                    "texture": {
+                        "key": "background_cow_7"
+                    },
+                    "x": 396,
+                    "y": -110,
+                    "scaleX": 0.04,
+                    "scaleY": 0.04
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "24b9f904-6971-43eb-9fde-70320443f926",
+                    "label": "tilesprite_3",
+                    "texture": {
+                        "key": "grass"
+                    },
+                    "x": 348,
+                    "y": -62,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 96,
+                    "body.height": 16,
+                    "body.offset.y": 16,
+                    "width": 96,
+                    "height": 32
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
+            "label": "platforms",
+            "objectIds": [
+                "29e34bec-eb36-4839-83a9-f6f0b46bf793",
+                "ea2fc907-df32-470a-adca-f4f952147ea8",
+                "80ae7c3d-270f-4832-9e76-5038389bf9c3",
+                "24b9f904-6971-43eb-9fde-70320443f926"
+            ],
+            "scope": "PUBLIC"
+        }
+    ]
+}

@@ -1262,6 +1262,34 @@
                     "strokeColor": "#ef0505",
                     "width": 320,
                     "height": 16
+                },
+                {
+                    "prefabId": "988a8d6d-a630-4d1b-8fef-68b9fa9ff656",
+                    "id": "b747754e-f1d5-4df6-bc27-4ffbb8e9168f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "body.offset.x",
+                        "body.offset.y",
+                        "body.width",
+                        "body.height"
+                    ],
+                    "label": "collect",
+                    "texture": {
+                        "key": "atlas",
+                        "frame": "egg1.png"
+                    },
+                    "x": 88,
+                    "y": -158,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "body.width": 32,
+                    "body.height": 32,
+                    "body.offset.x": 0,
+                    "body.offset.y": 0
                 }
             ]
         }

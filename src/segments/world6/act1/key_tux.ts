@@ -33,8 +33,16 @@ export default class key_tux extends Phaser.GameObjects.Container {
 		const collect = new Collect(scene, 393, -39, "tuxedo");
 		this.add(collect);
 
+		// nineslice_1
+		const nineslice_1 = scene.add.nineslice(380, 18, "stone1", undefined, 1000, 16, 4, 4, 4, 4) as Phaser.GameObjects.NineSlice & { body: Phaser.Physics.Arcade.Body };
+		scene.physics.add.existing(nineslice_1, false);
+		nineslice_1.body.pushable = false;
+		nineslice_1.body.immovable = true;
+		nineslice_1.body.setSize(1000, 16, false);
+		this.add(nineslice_1);
+
 		// lists
-		const platforms = [rectangle_1];
+		const platforms = [rectangle_1, nineslice_1];
 
 		// collect (prefab fields)
 		collect.key = "tux";
@@ -46,7 +54,7 @@ export default class key_tux extends Phaser.GameObjects.Container {
 		/* END-USER-CTR-CODE */
 	}
 
-	public platforms: Phaser.GameObjects.Rectangle[];
+	public platforms: Array<Phaser.GameObjects.Rectangle|Phaser.GameObjects.NineSlice>;
 
 	/* START-USER-CODE */
 

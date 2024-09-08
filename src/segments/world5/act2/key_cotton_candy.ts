@@ -30,11 +30,28 @@ export default class key_cotton_candy extends Phaser.GameObjects.Container {
 		this.add(rectangle_1);
 
 		// collect
-		const collect = new Collect(scene, 428, -110, "cotton_candy");
+		const collect = new Collect(scene, 428, -46, "cotton_candy");
 		this.add(collect);
 
+		// carnival_stripe
+		const carnival_stripe = scene.add.tileSprite(-116, 2, 1000, 32, "carnival_stripe");
+		carnival_stripe.setOrigin(0, 0);
+		carnival_stripe.tileScaleX = 3;
+		this.add(carnival_stripe);
+
+		// carnival_stripe_1
+		const carnival_stripe_1 = scene.add.tileSprite(-116, -126, 1000, 32, "carnival_stripe") as Phaser.GameObjects.TileSprite & { body: Phaser.Physics.Arcade.Body };
+		carnival_stripe_1.setOrigin(0, 0);
+		scene.physics.add.existing(carnival_stripe_1, false);
+		carnival_stripe_1.body.checkCollision.down = false;
+		carnival_stripe_1.body.pushable = false;
+		carnival_stripe_1.body.immovable = true;
+		carnival_stripe_1.body.setSize(1000, 32, false);
+		carnival_stripe_1.tileScaleX = 3;
+		this.add(carnival_stripe_1);
+
 		// lists
-		const platforms = [rectangle_1];
+		const platforms = [rectangle_1, carnival_stripe_1];
 
 		// collect (prefab fields)
 		collect.key = "cotton_candy";
@@ -46,7 +63,7 @@ export default class key_cotton_candy extends Phaser.GameObjects.Container {
 		/* END-USER-CTR-CODE */
 	}
 
-	public platforms: Phaser.GameObjects.Rectangle[];
+	public platforms: Array<Phaser.GameObjects.Rectangle|Phaser.GameObjects.TileSprite>;
 
 	/* START-USER-CODE */
 

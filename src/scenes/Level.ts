@@ -5,13 +5,12 @@
 
 import Phaser from "phaser";
 import SegmentSpawner from "./SegmentSpawner";
+import Seamus from "../prefabs/Seamus";
 import { OnEventScript } from "@phaserjs/editor-scripts-core";
 import { OnWorldBoundsCollideEventScript } from "@phaserjs/editor-scripts-arcade";
 import { GetGameObjectFromBodyActionScript } from "@phaserjs/editor-scripts-arcade";
 import { SetVelocityYActionScript } from "@phaserjs/editor-scripts-arcade";
 import { ActionTargetComp } from "@phaserjs/editor-scripts-core";
-import Seamus from "../prefabs/Seamus";
-import { url } from "inspector";
 /* START-USER-IMPORTS */
 // @ts-ignore
 const segmentsContext = require.context("../segments", true, /\.ts$/);
@@ -87,6 +86,37 @@ export default class Level extends Phaser.Scene {
 		tint.alpha = 0.4;
 		tint.isFilled = true;
 
+		// seamus
+		const seamus = new Seamus(this, 116, 143);
+		this.add.existing(seamus);
+
+		// snow
+		const snow = this.add.container(0, -94);
+
+		// snow2
+		const snow2 = this.add.tileSprite(181, 217, 1000, 1000, "snow2");
+		snow2.alpha = 0.75;
+		snow2.alphaTopLeft = 0.75;
+		snow2.alphaTopRight = 0.75;
+		snow2.alphaBottomLeft = 0.75;
+		snow2.alphaBottomRight = 0.75;
+		snow.add(snow2);
+
+		// blurFx_1
+		snow2.preFX!.addBlur(0, 1, 1, 1, 16777215, 2);
+
+		// snow1
+		const snow1 = this.add.tileSprite(181, 214, 1000, 1000, "snow1");
+		snow1.alpha = 0.6;
+		snow1.alphaTopLeft = 0.6;
+		snow1.alphaTopRight = 0.6;
+		snow1.alphaBottomLeft = 0.6;
+		snow1.alphaBottomRight = 0.6;
+		snow.add(snow1);
+
+		// blurFx_2
+		snow1.preFX!.addBlur(0, 3, 3, 1, 16777215, 1);
+
 		// onEventScript_5
 		const onEventScript_5 = new OnEventScript(this);
 
@@ -98,10 +128,6 @@ export default class Level extends Phaser.Scene {
 
 		// setVelocityYActionScript_3
 		const setVelocityYActionScript_3 = new SetVelocityYActionScript(getGameObjectFromBodyActionScript);
-
-		// seamus
-		const seamus = new Seamus(this, 116, 143);
-		this.add.existing(seamus);
 
 		// lists
 		const ground: Array<any> = [];
@@ -146,6 +172,9 @@ export default class Level extends Phaser.Scene {
 		this.segmentSpawner = segmentSpawner;
 		this.segments = segments;
 		this.seamus = seamus;
+		this.snow2 = snow2;
+		this.snow1 = snow1;
+		this.snow = snow;
 		this.platformCollider = platformCollider;
 		this.stairCollider = stairCollider;
 		this.collectibleCollider = collectibleCollider;
@@ -161,6 +190,9 @@ export default class Level extends Phaser.Scene {
 	private segmentSpawner!: SegmentSpawner;
 	private segments!: Phaser.GameObjects.Container & { body: Phaser.Physics.Arcade.Body };
 	private seamus!: Seamus;
+	private snow2!: Phaser.GameObjects.TileSprite;
+	private snow1!: Phaser.GameObjects.TileSprite;
+	private snow!: Phaser.GameObjects.Container;
 	private platformCollider!: Phaser.Physics.Arcade.Collider;
 	private stairCollider!: Phaser.Physics.Arcade.Collider;
 	private collectibleCollider!: Phaser.Physics.Arcade.Collider;
@@ -189,12 +221,13 @@ export default class Level extends Phaser.Scene {
 				initialSegments?: string[],
 				fillerPath?: string,
 				background?: string,
+				backgroundScale?: number,
 				secondsTillKeys?: integer
 			}
 		}
 	} = {
 			1: { // NYC letters: (W I L L)
-				1: { // GOLDMAN
+				1: { // forest fakeout level 
 					keys: ["money"],
 					music: "jordan_belfort", // jordan belfort?
 					soundConfig: {
@@ -210,7 +243,7 @@ export default class Level extends Phaser.Scene {
 					secondsTillKeys: 30,
 					// background: "goldman",
 				},
-				2: { // WEST SIDE HIGHWAY
+				2: { // WEST SIDE HIGHWAY done
 					keys: ["sandwich", "burger"],
 					music: "jordan_belfort",
 					continueMusic: true,
@@ -219,7 +252,7 @@ export default class Level extends Phaser.Scene {
 					background: "westsidehighway",
 					secondsTillKeys: 20,
 				},
-				3: { // JERSEY
+				3: { // JERSEY done
 					keys: ["lilith"],
 					music: "llama_in_my_living_room",
 					soundConfig: {
@@ -230,9 +263,10 @@ export default class Level extends Phaser.Scene {
 							loop: true,
 						},
 					},
-					initialSegments: ["testWorld/test_3", "testWorld/test_3", "testWorld/filler/test2", "testWorld/filler/test_1"],
-					fillerPath: "testWorld/filler/",
-					background: "desert",
+					// initialSegments: ["testWorld/test_3", "testWorld/test_3", "testWorld/filler/test2", "testWorld/filler/test_1"],
+					fillerPath: "world1/act3/filler",
+					background: "jersey3",
+					backgroundScale: 0.25,
 					secondsTillKeys: 60,
 				},
 			},
@@ -241,7 +275,9 @@ export default class Level extends Phaser.Scene {
 					keys: ["cowboy_hat", "waffle_house"],
 					music: "constant_sorrow", // CONSTANT SORROW 
 					// no configs
-					background: "monuments2", // NASHVILLE??
+					background: "nasvhille", // NASHVILLE??
+					backgroundScale: 0.5,
+					fillerPath: "world2/act1/filler",
 					secondsTillKeys: 30,
 				},
 				2: { // Mammoth
@@ -260,21 +296,24 @@ export default class Level extends Phaser.Scene {
 				},
 			},
 			3: { // DESERT + SKI letters: (B E)
-				1: { // desert
+				1: { // desert done
 					keys: ["elk"],
 					music: "midnight", // midnight 
 					// no configs
-					initialSegments: ["testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3",],
-					background: "desert",
+					// initialSegments: ["testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3",],
+					fillerPath: "world3/act1/filler",
+					background: "desert", // AT NIGHT?!?!?
 					secondsTillKeys: 90, //desert bus joke
 				},
-				2: { // ski
+				2: { // ski done
 					keys: ["hot_tub"],
 					music: "gangnam_style", // gangnam style
 					soundConfig: {
 						name: "start",
 						start: 47,
 					},
+					background: "treeline",
+					backgroundScale: 0.5,
 					secondsTillKeys: 30,
 				}
 			},
@@ -285,27 +324,34 @@ export default class Level extends Phaser.Scene {
 					secondsTillKeys: 45,
 				}
 			},
-			5: { // Hamptons: (BEST )
-				1: { // cow parade
+			5: { // Hamptons: (BEST ) 
+				1: { // cow parade done
 					keys: ["william_cow", "neil_cow"],
 					music: "rasputin", // rasputin
+					background: "fields",
+					backgroundScale: 0.235,
+					fillerPath: "world5/act1/filler",
 					// no configs
 					secondsTillKeys: 30,
 				},
-				2: { // neil patrick harris
+				2: { // neil patrick harris carnival? done
 					keys: ["cotton_candy", "horseshoe"],
 					music: "rasputin",
+					background: "carnival_day",
+					backgroundScale: 0.095,
+					fillerPath: "world5/act2/filler",
 					// no configs
 					secondsTillKeys: 30,
 					continueMusic: true,
 				}
 			},
 			6: { // DC + Wedding: (MAN?)
-				1: {
+				1: { // done
 					keys: ["ring1", "ring2", "tux", "flower"],
 					music: "cotton_eyed_joe",
 					background: "monuments2",
 					secondsTillKeys: 10,
+					fillerPath: "world6/act1/filler",
 				},
 				2: { // WEDDING // SEPARATE CUTSCENE KEEPING THIS HERE FOR THE TRIGGER
 					keys: ["endless"], // no keys, static
@@ -336,7 +382,13 @@ export default class Level extends Phaser.Scene {
 		const currentWorldPrefix = "world" + this.currentWorld + "/act" + this.currentAct;
 		const currentWorldKeySegments = segmentPaths.filter((path) => path.includes(currentWorldPrefix) && path.includes("key_"));
 		// filter segments to just the filler segments
-		const fillerSegments = segmentPaths.filter((path) => path.includes("testWorld"));
+		const fillerSegments = segmentPaths.filter((path) => {
+			if (this.currentConfig().fillerPath) {
+				return path.includes(this.currentConfig().fillerPath);
+			} else {
+				return path.includes("testWorld");
+			}
+		});
 		// combine the two lists
 		let finalSegments: string[] = [];
 		if (this.canSpawnKey) {
@@ -405,9 +457,6 @@ export default class Level extends Phaser.Scene {
 				}
 			}
 			this.collectibles.push(collectible);
-			console.log(collectible);
-			console.log(this.collectibles);
-			console.log("collectible added");
 		});
 	}
 
@@ -497,6 +546,7 @@ export default class Level extends Phaser.Scene {
 		this.loadSegments(config.initialSegments || []);
 		if (config.background) {
 			this.bg_png.setTexture(config.background);
+			this.bg_png.setTileScale(config.backgroundScale || 1, config.backgroundScale || 1);
 		}
 	}
 
@@ -588,6 +638,17 @@ export default class Level extends Phaser.Scene {
 				}
 			}
 		});
+
+		// in world 3 act 2 it snows
+		if (this.currentWorld === 3 && this.currentAct === 2) {
+			this.snow.visible = true;
+			this.snow1.tilePositionY += 0.5;
+			this.snow2.tilePositionY -= 1;
+			this.snow2.tilePositionX -= 0.5;
+			this.snow1.tilePositionX -= 5;
+		} else {
+			this.snow.visible = false;
+		}
 
 		this.runSpawner();
 

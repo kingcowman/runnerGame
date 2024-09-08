@@ -30,11 +30,29 @@ export default class key_ring1 extends Phaser.GameObjects.Container {
 		this.add(rectangle_1);
 
 		// collect
-		const collect = new Collect(scene, 461, -142, "ring1");
+		const collect = new Collect(scene, 684, -94, "ring1");
 		this.add(collect);
 
+		// nineslice_1
+		const nineslice_1 = scene.add.nineslice(380, 18, "stone1", undefined, 1000, 16, 4, 4, 4, 4) as Phaser.GameObjects.NineSlice & { body: Phaser.Physics.Arcade.Body };
+		scene.physics.add.existing(nineslice_1, false);
+		nineslice_1.body.pushable = false;
+		nineslice_1.body.immovable = true;
+		nineslice_1.body.setSize(1000, 16, false);
+		this.add(nineslice_1);
+
+		// nineslice
+		const nineslice = scene.add.nineslice(460, -62, "stone1", undefined, 500, 16, 4, 4, 4, 4) as Phaser.GameObjects.NineSlice & { body: Phaser.Physics.Arcade.Body };
+		scene.physics.add.existing(nineslice, false);
+		nineslice.body.mass = 10;
+		nineslice.body.checkCollision.down = false;
+		nineslice.body.pushable = false;
+		nineslice.body.immovable = true;
+		nineslice.body.setSize(500, 16, false);
+		this.add(nineslice);
+
 		// lists
-		const platforms = [rectangle_1];
+		const platforms = [rectangle_1, nineslice_1, nineslice];
 
 		// collect (prefab fields)
 		collect.key = "ring1";
@@ -46,7 +64,7 @@ export default class key_ring1 extends Phaser.GameObjects.Container {
 		/* END-USER-CTR-CODE */
 	}
 
-	public platforms: Phaser.GameObjects.Rectangle[];
+	public platforms: Array<Phaser.GameObjects.Rectangle|Phaser.GameObjects.NineSlice>;
 
 	/* START-USER-CODE */
 

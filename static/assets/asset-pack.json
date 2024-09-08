@@ -13,6 +13,51 @@
                 "key": "atlas"
             },
             {
+                "url": "assets/backgrounds/background_cow_1.png",
+                "type": "image",
+                "key": "background_cow_1"
+            },
+            {
+                "url": "assets/backgrounds/background_cow_2.png",
+                "type": "image",
+                "key": "background_cow_2"
+            },
+            {
+                "url": "assets/backgrounds/background_cow_3.png",
+                "type": "image",
+                "key": "background_cow_3"
+            },
+            {
+                "url": "assets/backgrounds/background_cow_4.png",
+                "type": "image",
+                "key": "background_cow_4"
+            },
+            {
+                "url": "assets/backgrounds/background_cow_5.png",
+                "type": "image",
+                "key": "background_cow_5"
+            },
+            {
+                "url": "assets/backgrounds/background_cow_6.png",
+                "type": "image",
+                "key": "background_cow_6"
+            },
+            {
+                "url": "assets/backgrounds/background_cow_7.png",
+                "type": "image",
+                "key": "background_cow_7"
+            },
+            {
+                "url": "assets/backgrounds/background_cow_8.png",
+                "type": "image",
+                "key": "background_cow_8"
+            },
+            {
+                "url": "assets/backgrounds/background_cow_9.png",
+                "type": "image",
+                "key": "background_cow_9"
+            },
+            {
                 "url": "assets/particles/blue.png",
                 "type": "image",
                 "key": "blue"
@@ -35,6 +80,21 @@
                 "url": "assets/keys/burger.png",
                 "type": "image",
                 "key": "burger"
+            },
+            {
+                "url": "assets/backgrounds/carnival_day.jpg",
+                "type": "image",
+                "key": "carnival_day"
+            },
+            {
+                "url": "assets/platforms/carnival_slide.png",
+                "type": "image",
+                "key": "carnival_slide"
+            },
+            {
+                "url": "assets/backgrounds/carnival_stripe.png",
+                "type": "image",
+                "key": "carnival_stripe"
             },
             {
                 "url": "assets/chick.png",
@@ -74,6 +134,11 @@
                 "key": "cowboyhat2"
             },
             {
+                "url": "assets/backgrounds/crate.png",
+                "type": "image",
+                "key": "crate"
+            },
+            {
                 "url": [
                     "assets/audio/death.wav"
                 ],
@@ -103,6 +168,11 @@
                 ],
                 "type": "audio",
                 "key": "Explosion"
+            },
+            {
+                "url": "assets/backgrounds/fields.png",
+                "type": "image",
+                "key": "fields"
             },
             {
                 "url": [
@@ -139,6 +209,11 @@
                 "key": "goldman"
             },
             {
+                "url": "assets/backgrounds/grass.png",
+                "type": "image",
+                "key": "grass"
+            },
+            {
                 "url": "assets/particles/green.png",
                 "type": "image",
                 "key": "green"
@@ -159,6 +234,11 @@
                 "key": "jersey2"
             },
             {
+                "url": "assets/backgrounds/jersey3.png",
+                "type": "image",
+                "key": "jersey3"
+            },
+            {
                 "url": [
                     "assets/songs/jordan_belfort.mp3"
                 ],
@@ -176,6 +256,31 @@
                 ],
                 "type": "audio",
                 "key": "llama_in_my_living_room"
+            },
+            {
+                "url": "assets/backgrounds/llama1.png",
+                "type": "image",
+                "key": "llama1"
+            },
+            {
+                "url": "assets/backgrounds/llama2.png",
+                "type": "image",
+                "key": "llama2"
+            },
+            {
+                "url": "assets/backgrounds/llama3.png",
+                "type": "image",
+                "key": "llama3"
+            },
+            {
+                "url": "assets/backgrounds/llama4.png",
+                "type": "image",
+                "key": "llama4"
+            },
+            {
+                "url": "assets/backgrounds/llama5.png",
+                "type": "image",
+                "key": "llama5"
             },
             {
                 "url": [
@@ -198,6 +303,11 @@
                 "url": "assets/backgrounds/monuments2.png",
                 "type": "image",
                 "key": "monuments2"
+            },
+            {
+                "url": "assets/backgrounds/nasvhille.png",
+                "type": "image",
+                "key": "nasvhille"
             },
             {
                 "url": "assets/keys/neilcow.png",
@@ -290,6 +400,21 @@
                 "key": "sandwich"
             },
             {
+                "url": "assets/backgrounds/snow1.png",
+                "type": "image",
+                "key": "snow1"
+            },
+            {
+                "url": "assets/backgrounds/snow2.png",
+                "type": "image",
+                "key": "snow2"
+            },
+            {
+                "url": "assets/platforms/stone1.png",
+                "type": "image",
+                "key": "stone1"
+            },
+            {
                 "url": "assets/keys/sweatshirt.png",
                 "type": "image",
                 "key": "sweatshirt"
@@ -300,6 +425,11 @@
                 ],
                 "type": "audio",
                 "key": "the_cave"
+            },
+            {
+                "url": "assets/backgrounds/treeline.png",
+                "type": "image",
+                "key": "treeline"
             },
             {
                 "url": [

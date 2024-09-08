@@ -13,30 +13,40 @@ export default class key_neil_cow extends Phaser.GameObjects.Container {
 	constructor(scene: Phaser.Scene, x?: number, y?: number) {
 		super(scene, x ?? 116, y ?? 174);
 
-		// rectangle_1
-		const rectangle_1 = scene.add.rectangle(-116, 26, 1000, 16) as Phaser.GameObjects.Rectangle & { body: Phaser.Physics.Arcade.Body };
-		rectangle_1.setInteractive(new Phaser.Geom.Rectangle(0, 0, 320, 16), Phaser.Geom.Rectangle.Contains);
-		rectangle_1.setOrigin(0, 1);
-		scene.physics.add.existing(rectangle_1, false);
-		rectangle_1.body.allowGravity = false;
-		rectangle_1.body.checkCollision.down = false;
-		rectangle_1.body.checkCollision.left = false;
-		rectangle_1.body.checkCollision.right = false;
-		rectangle_1.body.pushable = false;
-		rectangle_1.body.immovable = true;
-		rectangle_1.body.setSize(1000, 16, false);
-		rectangle_1.isFilled = true;
-		rectangle_1.strokeColor = 15664389;
-		this.add(rectangle_1);
-
 		// collect
-		const collect = new Collect(scene, 460, -30, "neilcow");
+		const collect = new Collect(scene, 252, -30, "neilcow");
 		collect.scaleX = 0.05;
 		collect.scaleY = 0.05;
 		this.add(collect);
 
+		// background_cow_9
+		const background_cow_9 = scene.add.image(252, -142, "background_cow_9");
+		background_cow_9.scaleX = 0.03;
+		background_cow_9.scaleY = 0.03;
+		this.add(background_cow_9);
+
+		// tilesprite
+		const tilesprite = scene.add.tileSprite(204, -94, 96, 32, "grass") as Phaser.GameObjects.TileSprite & { body: Phaser.Physics.Arcade.Body };
+		tilesprite.setOrigin(0, 1);
+		scene.physics.add.existing(tilesprite, false);
+		tilesprite.body.pushable = false;
+		tilesprite.body.immovable = true;
+		tilesprite.body.setOffset(0, 16);
+		tilesprite.body.setSize(96, 16, false);
+		this.add(tilesprite);
+
+		// tilesprite_2
+		const tilesprite_2 = scene.add.tileSprite(-116, 32, 760, 48, "grass") as Phaser.GameObjects.TileSprite & { body: Phaser.Physics.Arcade.Body };
+		tilesprite_2.setOrigin(0, 1);
+		scene.physics.add.existing(tilesprite_2, false);
+		tilesprite_2.body.pushable = false;
+		tilesprite_2.body.immovable = true;
+		tilesprite_2.body.setOffset(0, 16);
+		tilesprite_2.body.setSize(640, 16, false);
+		this.add(tilesprite_2);
+
 		// lists
-		const platforms = [rectangle_1];
+		const platforms = [tilesprite, tilesprite_2];
 
 		// collect (prefab fields)
 		collect.key = "neil_cow";
@@ -48,7 +58,7 @@ export default class key_neil_cow extends Phaser.GameObjects.Container {
 		/* END-USER-CTR-CODE */
 	}
 
-	public platforms: Phaser.GameObjects.Rectangle[];
+	public platforms: Phaser.GameObjects.TileSprite[];
 
 	/* START-USER-CODE */
 

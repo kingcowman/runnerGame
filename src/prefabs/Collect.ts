@@ -75,7 +75,9 @@ export default class Collect extends Phaser.GameObjects.Image {
 		if (!this.active) {
 			return;
 		}
-		this.scene.sound.play("pick_egg");
+		this.scene.sound.play("pick_egg", {
+			volume: 0.3,
+		});
 		//destroy in 2 seconds
 		this.flipX = true;
 		this.setInteractive(false);
@@ -122,9 +124,11 @@ export default class Collect extends Phaser.GameObjects.Image {
 		if (!this.hasFlipped && this.active) {
 			this.hasFlipped = true;
 			const pc = this.parentContainer;
-			pc.remove(this);
-			pc.add(this.particles);
-			pc.add(this);
+			if (pc) {
+				pc.remove(this);
+				pc.add(this.particles);
+				pc.add(this);
+			}
 		}
 	}
 

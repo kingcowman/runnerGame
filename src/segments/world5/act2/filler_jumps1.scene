@@ -1,0 +1,130 @@
+{
+    "id": "7f70c8f2-f61d-4bcb-8189-b5c3fd2e9be5",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "464df123-3830-4bc3-ad8b-1133bf331191",
+            "label": "container_1",
+            "x": 116,
+            "y": 174,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                    "label": "rectangle_1",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 320,
+                    "hitArea.height": 16,
+                    "x": -116,
+                    "y": 26,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "allowGravity": false,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 320,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "strokeColor": "#ef0505",
+                    "width": 320,
+                    "height": 16
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "b2d0e5bd-5a68-40ee-af67-02f1c9174106",
+                    "label": "carnival_stripe_2",
+                    "texture": {
+                        "key": "carnival_stripe"
+                    },
+                    "x": 28,
+                    "y": -126,
+                    "scaleX": 0.76,
+                    "originX": 0,
+                    "originY": 0,
+                    "ArcadeComponent.active": true,
+                    "down": false,
+                    "body.width": 128,
+                    "body.height": 32,
+                    "width": 128,
+                    "height": 32,
+                    "tileScaleX": 3
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "c50ea19a-3d85-434a-9478-e5aa4bf16e3f",
+                    "label": "carnival_stripe",
+                    "texture": {
+                        "key": "carnival_stripe"
+                    },
+                    "x": -68,
+                    "y": -62,
+                    "originX": 0,
+                    "originY": 0,
+                    "ArcadeComponent.active": true,
+                    "down": false,
+                    "body.width": 250,
+                    "body.height": 32,
+                    "width": 250,
+                    "height": 32,
+                    "tileScaleX": 3
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "4f03dbde-6100-4f61-8e7d-97d2077d03c4",
+                    "label": "carnival_stripe_1",
+                    "texture": {
+                        "key": "carnival_stripe"
+                    },
+                    "x": -116,
+                    "y": 2,
+                    "originX": 0,
+                    "originY": 0,
+                    "ArcadeComponent.active": true,
+                    "down": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 250,
+                    "body.height": 32,
+                    "width": 320,
+                    "height": 32,
+                    "tileScaleX": 3
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
+            "label": "platforms",
+            "objectIds": [
+                "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                "b2d0e5bd-5a68-40ee-af67-02f1c9174106",
+                "c50ea19a-3d85-434a-9478-e5aa4bf16e3f"
+            ],
+            "scope": "PUBLIC"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "id": "607fdce9-9181-478e-b392-8665805f1c7c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "464df123-3830-4bc3-ad8b-1133bf331191",
+            "label": "container_1",
+            "x": 116,
+            "y": 174,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                    "label": "rectangle_1",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 250,
+                    "hitArea.height": 16,
+                    "x": -116,
+                    "y": 26,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "allowGravity": false,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 320,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "strokeColor": "#ef0505",
+                    "width": 250,
+                    "height": 16
+                },
+                {
+                    "type": "Image",
+                    "id": "088370fd-3ff5-49b9-96a4-c0496ef34e63",
+                    "label": "llama4",
+                    "texture": {
+                        "key": "llama4"
+                    },
+                    "x": 60,
+                    "y": -46,
+                    "scaleX": 0.15,
+                    "scaleY": 0.15,
+                    "ArcadeComponent.active": true,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "body.width": 320,
+                    "body.height": 192,
+                    "body.offset.x": 542,
+                    "body.offset.y": 112
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "37e85589-b3c2-4abd-85e2-35e141b4085c",
+                    "label": "rectangle_2",
+                    "x": 60,
+                    "y": -46,
+                    "visible": false,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 48,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "width": 64,
+                    "height": 16
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
+            "label": "platforms",
+            "objectIds": [
+                "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                "37e85589-b3c2-4abd-85e2-35e141b4085c",
+                "088370fd-3ff5-49b9-96a4-c0496ef34e63"
+            ],
+            "scope": "PUBLIC"
+        }
+    ]
+}

@@ -59,8 +59,52 @@
                     "texture": {
                         "key": "ring1"
                     },
-                    "x": 461,
-                    "y": -142
+                    "x": 684,
+                    "y": -94
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "22639ebc-81fd-410f-b8a3-fc1dc3d2ce48",
+                    "label": "nineslice_1",
+                    "texture": {
+                        "key": "stone1"
+                    },
+                    "x": 380,
+                    "y": 18,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 1000,
+                    "body.height": 16,
+                    "leftWidth": 4,
+                    "rightWidth": 4,
+                    "topHeight": 4,
+                    "bottomHeight": 4,
+                    "width": 1000,
+                    "height": 16
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "7d470b73-61a2-4a0a-a7f8-90b021293a3d",
+                    "label": "nineslice",
+                    "texture": {
+                        "key": "stone1"
+                    },
+                    "x": 460,
+                    "y": -62,
+                    "ArcadeComponent.active": true,
+                    "down": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "mass": 10,
+                    "body.width": 500,
+                    "body.height": 16,
+                    "leftWidth": 4,
+                    "rightWidth": 4,
+                    "topHeight": 4,
+                    "bottomHeight": 4,
+                    "width": 500,
+                    "height": 16
                 }
             ]
         }
@@ -77,7 +121,9 @@
             "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
             "label": "platforms",
             "objectIds": [
-                "9612894a-3a70-4cf9-b662-ef539cdb8476"
+                "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                "22639ebc-81fd-410f-b8a3-fc1dc3d2ce48",
+                "7d470b73-61a2-4a0a-a7f8-90b021293a3d"
             ],
             "scope": "PUBLIC"
         }
