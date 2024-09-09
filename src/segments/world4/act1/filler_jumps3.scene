@@ -1,0 +1,183 @@
+{
+    "id": "ec25e176-270b-4f82-a407-a76b521c638a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 360,
+        "borderHeight": 240
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "464df123-3830-4bc3-ad8b-1133bf331191",
+            "label": "container_1",
+            "x": 116,
+            "y": 174,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                    "label": "rectangle_1",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 640,
+                    "hitArea.height": 16,
+                    "x": -116,
+                    "y": 26,
+                    "originX": 0,
+                    "originY": 1,
+                    "ArcadeComponent.active": true,
+                    "allowGravity": false,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 960,
+                    "body.height": 16,
+                    "isFilled": true,
+                    "strokeColor": "#ef0505",
+                    "width": 960,
+                    "height": 16
+                },
+                {
+                    "type": "Image",
+                    "id": "0307ca0a-aab7-45be-b002-6f2d671ba93a",
+                    "label": "soda_pallette",
+                    "texture": {
+                        "key": "soda_pallette"
+                    },
+                    "x": -4,
+                    "y": -14,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2,
+                    "ArcadeComponent.active": true,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 544,
+                    "body.height": 192,
+                    "body.offset.x": 226,
+                    "body.offset.y": 411
+                },
+                {
+                    "type": "Image",
+                    "id": "11ab5c3b-447f-44eb-80eb-9c2d905b788e",
+                    "label": "rotissrie",
+                    "texture": {
+                        "key": "rotissrie"
+                    },
+                    "x": 604,
+                    "y": -62,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 1024,
+                    "body.height": 1024
+                },
+                {
+                    "type": "Image",
+                    "id": "ad589ac2-342c-4c88-95c1-417c17efdd71",
+                    "label": "soda_pallette_1",
+                    "texture": {
+                        "key": "soda_pallette"
+                    },
+                    "x": 300,
+                    "y": -14,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2,
+                    "ArcadeComponent.active": true,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 544,
+                    "body.height": 192,
+                    "body.offset.x": 227,
+                    "body.offset.y": 501
+                },
+                {
+                    "type": "Image",
+                    "id": "c81e8d4b-ef17-4c9d-996b-e42f37387f19",
+                    "label": "soda_pallette_2",
+                    "texture": {
+                        "key": "soda_pallette"
+                    },
+                    "x": 300,
+                    "y": -62,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2,
+                    "ArcadeComponent.active": true,
+                    "down": false,
+                    "left": false,
+                    "right": false,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 544,
+                    "body.height": 192,
+                    "body.offset.x": 248,
+                    "body.offset.y": 429
+                },
+                {
+                    "prefabId": "988a8d6d-a630-4d1b-8fef-68b9fa9ff656",
+                    "id": "4db475d5-547b-498b-a28b-191e42a013b6",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "texture",
+                        "scaleX",
+                        "scaleY",
+                        "body.offset.x",
+                        "body.offset.y",
+                        "body.width",
+                        "body.height"
+                    ],
+                    "label": "collect",
+                    "texture": {
+                        "key": "atlas",
+                        "frame": "egg1.png"
+                    },
+                    "x": 604,
+                    "y": -206,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "body.width": -16,
+                    "body.height": -16,
+                    "body.offset.x": 24,
+                    "body.offset.y": 24
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
+            "label": "platforms",
+            "objectIds": [
+                "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                "c81e8d4b-ef17-4c9d-996b-e42f37387f19",
+                "ad589ac2-342c-4c88-95c1-417c17efdd71",
+                "11ab5c3b-447f-44eb-80eb-9c2d905b788e",
+                "0307ca0a-aab7-45be-b002-6f2d671ba93a"
+            ],
+            "scope": "PUBLIC"
+        }
+    ]
+}

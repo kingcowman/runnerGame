@@ -184,6 +184,13 @@
             },
             {
                 "url": [
+                    "assets/audio/elk_sound.mp3"
+                ],
+                "type": "audio",
+                "key": "elk_sound"
+            },
+            {
+                "url": [
                     "assets/audio/Explosion.wav"
                 ],
                 "type": "audio",
@@ -420,6 +427,11 @@
                 "key": "ring2"
             },
             {
+                "url": "assets/backgrounds/rotissrie.png",
+                "type": "image",
+                "key": "rotissrie"
+            },
+            {
                 "url": "assets/keys/sandwich.png",
                 "type": "image",
                 "key": "sandwich"
@@ -433,6 +445,11 @@
                 "url": "assets/backgrounds/snow2.png",
                 "type": "image",
                 "key": "snow2"
+            },
+            {
+                "url": "assets/backgrounds/soda_pallette.png",
+                "type": "image",
+                "key": "soda_pallette"
             },
             {
                 "url": "assets/platforms/stone1.png",

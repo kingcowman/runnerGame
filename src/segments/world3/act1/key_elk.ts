@@ -48,8 +48,8 @@ export default class key_elk extends Phaser.GameObjects.Container {
 
 		/* START-USER-CTR-CODE */
 		// Write your code here.
-		// play explosion sound
-		scene.sound.play("Explosion");
+		// play elk sound
+		scene.sound.play("elk_sound");
 		// on update
 		scene.events.on(Phaser.Scenes.Events.UPDATE, () => {
 			if (collect.y == -40)

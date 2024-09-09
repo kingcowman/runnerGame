@@ -128,9 +128,9 @@
                     "scaleX": 0.8,
                     "scaleY": 0.8,
                     "body.width": 32,
-                    "body.height": 32,
+                    "body.height": 16,
                     "body.offset.x": 0,
-                    "body.offset.y": 0
+                    "body.offset.y": 10
                 }
             ]
         }

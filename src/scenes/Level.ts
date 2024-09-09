@@ -324,8 +324,9 @@ export default class Level extends Phaser.Scene {
 				1: { // COSTCO
 					keys: ["pizza", "sweater"],
 					music: "turn_it_up", // turn it up
-					background: "costco_aisle",
-					backgroundScale: 0.15,
+					background: "costco",
+					backgroundScale: 0.25,
+					fillerPath: "world4/act1/filler",
 					secondsTillKeys: 45,
 				}
 			},

@@ -62,8 +62,8 @@ export default class filler_jump3 extends Phaser.GameObjects.Container {
 		const collect = new Collect(scene, 156, -142, "atlas", "egg1.png");
 		collect.scaleX = 0.8;
 		collect.scaleY = 0.8;
-		collect.body.setOffset(0, 0);
-		collect.body.setSize(32, 32, false);
+		collect.body.setOffset(0, 10);
+		collect.body.setSize(32, 16, false);
 		this.add(collect);
 
 		// lists
