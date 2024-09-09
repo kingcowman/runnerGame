@@ -97,6 +97,16 @@
                 "key": "carnival_stripe"
             },
             {
+                "url": "assets/backgrounds/cave_platform.png",
+                "type": "image",
+                "key": "cave_platform"
+            },
+            {
+                "url": "assets/backgrounds/caves.png",
+                "type": "image",
+                "key": "caves"
+            },
+            {
                 "url": "assets/chick.png",
                 "frameConfig": {
                     "frameWidth": 32,
@@ -115,6 +125,16 @@
                 ],
                 "type": "audio",
                 "key": "constant_sorrow"
+            },
+            {
+                "url": "assets/backgrounds/costco.png",
+                "type": "image",
+                "key": "costco"
+            },
+            {
+                "url": "assets/backgrounds/costco_aisle.png",
+                "type": "image",
+                "key": "costco_aisle"
             },
             {
                 "url": "assets/keys/cotton_candy.png",
@@ -313,6 +333,11 @@
                 "url": "assets/keys/neilcow.png",
                 "type": "image",
                 "key": "neilcow"
+            },
+            {
+                "url": "assets/backgrounds/night_desert1.png",
+                "type": "image",
+                "key": "night_desert1"
             },
             {
                 "url": [

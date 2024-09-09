@@ -1,5 +1,5 @@
 {
-    "id": "3216d597-0d11-4ae5-b868-c32140778005",
+    "id": "88a05d22-219d-4902-ac9f-4e5a4d1b3c91",
     "sceneType": "PREFAB",
     "settings": {
         "snapEnabled": true,
@@ -38,16 +38,188 @@
                     "right": false,
                     "pushable": false,
                     "immovable": true,
-                    "body.width": 1000,
+                    "body.width": 480,
                     "body.height": 16,
                     "isFilled": true,
+                    "fillColor": "#646464",
                     "strokeColor": "#ef0505",
-                    "width": 1000,
+                    "width": 1280,
                     "height": 16
                 },
                 {
+                    "type": "Image",
+                    "id": "6882a488-a340-42ec-a7a0-755d79143845",
+                    "label": "cave_platform",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 316,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "a987fa7e-4eba-4399-aaed-e02dd146a52e",
+                    "label": "cave_platform_2",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 236,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "627ce897-b5e7-4e1b-843c-c5fab4842fee",
+                    "label": "cave_platform_3",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 476,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "975bf66c-ea4e-4061-a7e2-3862090ef363",
+                    "label": "cave_platform_4",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 396,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "e6c7cf16-e6d6-4f6e-b131-1dd0040a66ba",
+                    "label": "cave_platform_5",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 636,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "cc8c89f2-87e5-4ac6-be9f-61f90c202ed9",
+                    "label": "cave_platform_6",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 556,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "d378caca-608f-4a40-a9e5-56bbf82cde7a",
+                    "label": "cave_platform_7",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 796,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "bec8f2a7-e65b-464e-948f-7b0ed51828f3",
+                    "label": "cave_platform_8",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 716,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "b692ca19-3944-4b40-8256-c02f8b0185f7",
+                    "label": "cave_platform_10",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 876,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
+                },
+                {
                     "prefabId": "988a8d6d-a630-4d1b-8fef-68b9fa9ff656",
-                    "id": "dd5bc2aa-f541-45f7-99b3-43402d7514f8",
+                    "id": "56921f20-3d9f-480f-8b51-deb71fcbc2ea",
                     "unlock": [
                         "x",
                         "y",
@@ -59,8 +231,27 @@
                     "texture": {
                         "key": "gold"
                     },
-                    "x": 412,
-                    "y": -126
+                    "x": 956,
+                    "y": -10
+                },
+                {
+                    "type": "Image",
+                    "id": "03d85630-8fcb-490e-96b6-5a31bbabf2ef",
+                    "label": "cave_platform_9",
+                    "texture": {
+                        "key": "cave_platform"
+                    },
+                    "x": 956,
+                    "y": -30,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "ArcadeComponent.active": true,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 208,
+                    "body.height": 48,
+                    "body.offset.x": 18,
+                    "body.offset.y": 66
                 }
             ]
         }
@@ -77,7 +268,17 @@
             "id": "2446d4a7-07b8-46d7-8c64-2662e6eef93b",
             "label": "platforms",
             "objectIds": [
-                "9612894a-3a70-4cf9-b662-ef539cdb8476"
+                "9612894a-3a70-4cf9-b662-ef539cdb8476",
+                "6882a488-a340-42ec-a7a0-755d79143845",
+                "b692ca19-3944-4b40-8256-c02f8b0185f7",
+                "bec8f2a7-e65b-464e-948f-7b0ed51828f3",
+                "d378caca-608f-4a40-a9e5-56bbf82cde7a",
+                "cc8c89f2-87e5-4ac6-be9f-61f90c202ed9",
+                "e6c7cf16-e6d6-4f6e-b131-1dd0040a66ba",
+                "975bf66c-ea4e-4061-a7e2-3862090ef363",
+                "627ce897-b5e7-4e1b-843c-c5fab4842fee",
+                "a987fa7e-4eba-4399-aaed-e02dd146a52e",
+                "03d85630-8fcb-490e-96b6-5a31bbabf2ef"
             ],
             "scope": "PUBLIC"
         }

@@ -271,7 +271,7 @@ export default class Level extends Phaser.Scene {
 				},
 			},
 			2: { // TENNESSEE letters: (Y O U)
-				1: { // Nashville
+				1: { // Nashville DONE
 					keys: ["cowboy_hat", "waffle_house"],
 					music: "constant_sorrow", // CONSTANT SORROW 
 					// no configs
@@ -291,7 +291,9 @@ export default class Level extends Phaser.Scene {
 							loop: true,
 						},
 					},
-					background: "monuments2", // CAVES!!!
+					background: "caves", // CAVES!!!
+					backgroundScale: 0.49,
+					fillerPath: "world2/act2/filler",
 					secondsTillKeys: 50,
 				},
 			},
@@ -302,7 +304,8 @@ export default class Level extends Phaser.Scene {
 					// no configs
 					// initialSegments: ["testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3", "testWorld/test_3",],
 					fillerPath: "world3/act1/filler",
-					background: "desert", // AT NIGHT?!?!?
+					background: "night_desert1", // AT NIGHT?!?!?
+					backgroundScale: 0.4,
 					secondsTillKeys: 90, //desert bus joke
 				},
 				2: { // ski done
@@ -321,6 +324,8 @@ export default class Level extends Phaser.Scene {
 				1: { // COSTCO
 					keys: ["pizza", "sweater"],
 					music: "turn_it_up", // turn it up
+					background: "costco_aisle",
+					backgroundScale: 0.15,
 					secondsTillKeys: 45,
 				}
 			},
