@@ -132,11 +132,6 @@
                 "key": "costco"
             },
             {
-                "url": "assets/backgrounds/costco_aisle.png",
-                "type": "image",
-                "key": "costco_aisle"
-            },
-            {
                 "url": "assets/keys/cotton_candy.png",
                 "type": "image",
                 "key": "cotton_candy"
@@ -164,11 +159,6 @@
                 ],
                 "type": "audio",
                 "key": "death"
-            },
-            {
-                "url": "assets/backgrounds/desert.png",
-                "type": "image",
-                "key": "desert"
             },
             {
                 "url": [
@@ -231,11 +221,6 @@
                 "key": "gold"
             },
             {
-                "url": "assets/backgrounds/goldman.png",
-                "type": "image",
-                "key": "goldman"
-            },
-            {
                 "url": "assets/backgrounds/grass.png",
                 "type": "image",
                 "key": "grass"
@@ -254,11 +239,6 @@
                 "url": "assets/keys/hottub.png",
                 "type": "image",
                 "key": "hottub"
-            },
-            {
-                "url": "assets/backgrounds/jersey2.png",
-                "type": "image",
-                "key": "jersey2"
             },
             {
                 "url": "assets/backgrounds/jersey3.png",
