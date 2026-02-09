@@ -1,3 +1,7 @@
+# Present Day William Note
+This repo and the resulting github page were an elaborate best man invite for my wedding. Aside from this message the repo is preserved in that original state. Don't bother playing the game it's not actually very good.
+
+
 # Flappy Chicken Demo
 
 A demo project to show how to use the script nodes from the script libraries. It requires Phaser Editor v4.0.0 or a newer version.
